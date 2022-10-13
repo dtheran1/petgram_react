@@ -1,9 +1,13 @@
 import React from 'react'
-import { Category } from './components/Category/index'
+import { ListOfCategories } from './components/ListOfCategories'
+import { GlobalStyle } from './GlobalStyles'
 
 function App () {
   return (
-    <Category />
+    <div>
+      <GlobalStyle />
+      <ListOfCategories />
+    </div>
   )
 }
 
