@@ -10,7 +10,7 @@ function App () {
       <GlobalStyle />
       <Logo />
       <ListOfCategories />
-      <ListOfPhotoCards />
+      <ListOfPhotoCards categoryId={2} />
     </div>
   )
 }
