@@ -14,7 +14,7 @@ function App () {
       <Logo />
       {
         detailId
-          ? <PhotoCardWithQuery id={detailId}/>
+          ? <PhotoCardWithQuery id={detailId} />
           : <>
             <ListOfCategories />
             <ListOfPhotoCards categoryId={1} />
