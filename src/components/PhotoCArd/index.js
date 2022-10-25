@@ -17,7 +17,7 @@ function PhotoCard ({ id, likes = 0, src = DEF_IMG }) {
       {
         show &&
           <>
-            <a href={`/detail/${id}`}>
+            <a href={`/?detail=${id}`}>
               <ImgWrapper>
                 <Img src={src} />
               </ImgWrapper>
